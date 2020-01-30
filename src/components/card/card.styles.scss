@@ -1,0 +1,27 @@
+$border-radius: 2px;
+
+.card-container {
+    cursor: pointer;
+    background-color:#2a2b2b8f;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0.0625em 0.1875em rgba(0, 0, 0, 0.52),
+    0 0.0625em 0.125em rgba(0, 0, 0, 0.52);
+    border-radius: $border-radius;
+    //width:12rem;
+    margin: 1rem 1rem;
+    transition: transform 0.25s ease-out;    
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+
+    &:hover {
+      box-shadow: 0 0.875em 1.75em rgba(0, 0, 0, 0.52),
+      0 0.625em 0.625em rgba(0, 0, 0, 0.52);
+      transform: scale(1.05, 1.05);
+    }
+    
+  }
+  
+  
+  
